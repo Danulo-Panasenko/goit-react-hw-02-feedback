@@ -1,0 +1,14 @@
+.item {
+  font-size: 12px;
+  font-weight: 500;
+}
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.stats {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
